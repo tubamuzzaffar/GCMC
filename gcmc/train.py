@@ -496,8 +496,4 @@ print('global seed = ', seed)
 # For parsing results from file
 results = vars(ap.parse_args()).copy()
 results.update({'best_val_score': float(best_val_score), 'best_epoch': best_epoch})
-print(json.dumps(results))
-with open('data/%s.json' (HIDDEN), 'w') as f:
-    json.dump(data, f)
-
 sess.close()
