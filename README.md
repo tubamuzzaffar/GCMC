@@ -1,9 +1,3 @@
-# Graph Convolutional Matrix Completion
-
-Tensorflow based implemention of Graph Convolutional Matrix Completion for recommender systems, based on our paper:
-
-Rianne van den Berg, Thomas N. Kipf, Max Welling, [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263) (2017)
-
 ## Installation
 
 ```python setup.py install```
