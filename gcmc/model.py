@@ -148,7 +148,7 @@ class RecommenderGAE(Model):
 
     def _build(self):
         if self.accum == 'sum':
-             self.layers.append(Dense(input_dim=self.input_dim,
+             self.layers.append(OrdinalMixtureGCN(input_dim=self.input_dim,
                                                  output_dim=self.hidden[0],
                                                  support=self.support,
                                                  support_t=self.support_t,
